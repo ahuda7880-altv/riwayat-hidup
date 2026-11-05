@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | zahra </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            color: #202938;
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        .hero {
+            background: #14243a;
+            color: white;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <strong>zahra</strong>
+        <div>
+            <a href="#tentang">Tentang Saya</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>bougenvil novi sazahra</h1>
+    <p>m | EXCEL | </p>
+</section>
+
+<section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>
+        Saya sekolah di smk global cendakia jurusan saya teknik komputer dan jaringan  .
+    </p>
+</section>
+
+<section id="portofolio">
+    <h2>Portofolio</h2>
+    <div class="card">HOST LIVE</div>
+    <div class="card">ADMINISTRASI</div>
+    <div class="card">TELEMARKETING</div>
+</section>
+
+<section id="pendidikan">
+    <h2>Riwayat Pendidikan</h2>
+    <div class="card">
+        SMK GLOBAL CENDAKIA
+        <p>TEKNIK KOMPUTER DAN JARINGAN</p>
+    </div>
+</section>
+
+<section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: BOUGENVILNOVISAZAHRA@GMAIL.COM</p>
+    <p>WhatsApp: 087892848618</p>
+</section>
+
+<footer>
+    <p>© BOUGENVILNOVISAZAHRA</p>
+</footer>
+
+</body>
+</html>
