@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="riwayat hidup bougenvil sazahra- ">
+  <title>CV | zahra</title>
+  <style>
+    :root {
+      --navy: #14243a;
+      --blue: #2563eb;
+      --pale: #eef4ff;
+      --ink: #202938;
+      --muted: #657184;
+      --line: #e3e8ef;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: #f7f9fc;
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1080px, 90%); margin: auto; }
+    header {
+      background: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid var(--line);
+    }
+    nav {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { font-weight: 800; color: var(--navy); letter-spacing: .4px; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 22px; font-size: 14px; color: var(--muted); }
+    .nav-links a:hover { color: var(--blue); }
+    .hero {
+      padding: 90px 0 82px;
+      background: linear-gradient(135deg, #14243a, #203e68);
+      color: white;
+    }
+    .hero-grid { display: grid; grid-template-columns: 1.5fr .8fr; gap: 45px; align-items: center; }
+    .eyebrow { color: #a9c7ff; text-transform: uppercase; letter-spacing: 2px; font-size: 12px; font-weight: 700; }
+    h1 { font-size: clamp(36px, 6vw, 58px); line-height: 1.12; margin: 14px 0; }
+    .hero p { color: #dbe6f7; max-width: 650px; }
+    .hero-card {
+      border: 1px solid rgba(255,255,255,.22);
+      background: rgba(255,255,255,.08);
+      padding: 28px;
+      border-radius: 18px;
+    }
+    .hero-card strong { display: block; font-size: 14px; color: #a9c7ff; margin-bottom: 5px; }
+    .hero-card span { display: block; margin-bottom: 18px; }
+    .hero-card span:last-child { margin-bottom: 0; }
+    .button {
+      display: inline-block;
+      margin-top: 18px;
+      background: #fff;
+      color: var(--navy);
+      padding: 11px 19px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    section { padding: 72px 0; }
+    section:nth-of-type(even) { background: white; }
+    .section-label { color: var(--blue); text-transform: uppercase; letter-spacing: 1.7px; font-size: 12px; font-weight: 800; }
+    h2 { color: var(--navy); font-size: 30px; margin: 7px 0 26px; }
+    .about { max-width: 780px; color: var(--muted); }
+    .skills, .portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 8px 24px rgba(20,36,58,.04);
+    }
+    .skills .card h3, .card h3 { color: var(--navy); margin: 0 0 8px; font-size: 17px; }
+    .card p, .card li { color: var(--muted); font-size: 14px; }
+    .portfolio-placeholder {
+      min-height: 145px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      color: #53709a;
+      background: var(--pale);
+      border: 1px dashed #a9c3ee;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+    .timeline { border-left: 2px solid #cbdaf3; padding-left: 25px; }
+    .timeline-item { position: relative; margin: 0 0 28px; }
+    .timeline-item::before {
+      content: ""; position: absolute; width: 11px; height: 11px; border-radius: 50%;
+      background: var(--blue); left: -32px; top: 7px;
+    }
+    .timeline-item h3 { margin: 0; color: var(--navy); }
+    .timeline-item .meta { color: var(--blue); font-size: 13px; font-weight: 700; }
+    .contact-box { background: var(--navy); color: white; padding: 32px; border-radius: 16px; }
+    .contact-box h2 { color: white; margin-bottom: 10px; }
+    .contact-box p { color: #dbe6f7; }
+    footer { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 760px) {
+      nav { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      .nav-links { gap: 12px; }
+      .hero { padding: 65px 0; }
+      .hero-grid, .skills, .portfolio-grid { grid-template-columns: 1fr; }
+      section { padding: 55px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a class="brand" href="#beranda">AMIRUL HUDA</a>
+      <div class="nav-links">
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">riwayat hidup</div>
+          <h1>ariana grande (zahra)</h1>
+          <p>aariana grande (zahra) waktu rumah nya masih di pengarengan kelas 3</p>
+          <a class="button" href="#kontak">Hubungi Saya</a>
+        </div>
+        <div class="hero-card">
+          <strong>Bidang</strong><span>host live / administasi / telemarketing<</span>
+          <strong>Perangkat lunak</strong><tiktok,excel,handpone</span>
+          <strong>Pendidikan</strong><span>SMK global</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang">
+      <div class="container">
+        <div class="section-label">Profil</div>
+        <h2>Tentang Saya</h2>
+        <p class="about">Latar belakang saya sekolah di SMK global cendekia dengan jurusan komputer dan jaringan saya terbiasa menggnakan excel,ms word,power point dan treb edit umur saya 18 tahun saya berdomisili di KP.Pengarengan   .</p>
+        <div class="skills" style="margin-top:28px">
+          <article class="card"><h3>Excel 2D</h3><p>Membuat table,memasukan data harga .</p></article>
+          <article class="card"><h3>ms word 3D</h3><p>Membuantu karyawan merapikan surat jalan </p></article>
+          <article class="card"><h3>treb edit</h3><p>untuk membuat dan mengedit kode HTML serta CSS dalam pembuatan website CV. Aplikasi ini memudahkan pengguna menulis kode program, mengatur tampilan website, dan melihat hasilnya secara langsung melalui fitur Preview.</p></article>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <section id="pendidikan">
+      <div class="container">
+        <div class="section-label">Latar Belakang</div>
+        <h2>Riwayat Pendidikan</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>SMK global cendekia</h3>
+            <div class="meta">teknik komputer dan jaringan </div>
+            <p class="about">Tahun pendidikan: <strong>[2024 – belum lulus]</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+  <footer>© ariana grande (zahra)· Curriculum Vitae & Portfolio</footer>
+   <h2>Kontak</h2>
+    <p>Email: BOUGENVILNOVISAZAHRA@GMAIL.COM</p>
+    <p>WhatsApp: 087892848618</p>
+</body>
+</html>
